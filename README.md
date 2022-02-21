@@ -32,7 +32,7 @@ To get All saved short urls we need to provide a GET request to the path {localh
 To redirect from any generated urls to it's original source, we need to perform a GET request with generated url as parameter like {localhost:8080/api/urlshortner/Raabl3qV} and it will redirect to the original page on a new tab;
 
 
-#Import Frontend React project from frontend branch
+# Import Frontend React project from frontend branch
 
 To run react app we need To install node.js on our project environment.To connect spring backend server we need to edit package.json file and the proxy server after scripts
 
