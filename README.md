@@ -39,7 +39,7 @@ To run react app we need To install node.js on our project environment.To connec
   "proxy": "http://localhost:8080",
   
 To add api absolute path throughout the react app we need to edit .env file on project root ditrctory and add the key as below-
-	REACT_APP_API_KEY = http://localhost:8012
+	REACT_APP_API_KEY = http://localhost:8080
   
 we need to navigate to the projects app directory and run the command npm start. This will run the react server which will be deployed. By default it will be deployed on http://localhost:3000. This page contains a input textbox, a submit button and list of short links. At this stage we need to modify ShortUrlAnchor.js file and put the hardcoded spring backend absolute path.
 
