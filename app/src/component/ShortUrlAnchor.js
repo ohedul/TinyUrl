@@ -9,7 +9,7 @@ class ShortUrlAnchor extends Component{
     render(){
         return(
             <div>
-            <a href={`http://localhost:8012/api/urlshortner/${this.props.tinyUrl.key}`} target="_blank" rel="noopener noreferrer">
+            <a href={`${process.env.REACT_APP_API_KEY + '/api/urlshortner/'+ this.props.tinyUrl.key}`} target="_blank" rel="noopener noreferrer">
               {this.props.tinyUrl.key}
             </a>
           </div>
